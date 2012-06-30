@@ -1,12 +1,35 @@
 h1 {
   font-size: 60px;
+  font-weight: 100;
   letter-spacing: -1px;
   line-height: 1;
   text-rendering: optimizelegibility;
   text-shadow: 0px 2px 3px #888;
+  color: #000;
 }
 
 h2 {
   font-size: 24px;
+  font-weight: 100;
   line-height: 36px;
+  text-shadow: 0px 1px 2px #888;
+  color: #222;
+  text-rendering: optimizelegibility;
+}
+
+h3 {
+  font-size: 18px;
+  font-weight: 100;
+  line-height: 27px;
+  text-shadow: 0px 1px 1px #888;
+  color: #444;
+  text-rendering: optimizelegibility;
+}
+
+h4 {
+  font-size: 14px;
+  font-weight: 100;
+  line-height: 18px;
+  color: #666;
+  text-rendering: optimizelegibility;
 }
