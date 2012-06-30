@@ -1,8 +1,17 @@
+.button-full {
+  width: $hundred-percent;
+  height:25px;
+  background-color: #ED468A;
+  background-image: -moz-linear-gradient(center top , #ED468A, #ED468A);
+  border: 1px solid #7D2549;
+  color:#1F0902;
+}
+
 .button-small {
   width:75px;
   height:25px;
-  background-color: #661e3b;
-  background-image: -moz-linear-gradient(center top , #ED468A, #992D58);
+  background-color: #ED468A;
+  background-image: -moz-linear-gradient(center top , #ED468A, #ED468A);
   border: 1px solid #7D2549;
   color:#1F0902;
 }
@@ -11,7 +20,7 @@
   width:125px;
   height:25px;
   background-color: #661e3b;
-  background-image: -moz-linear-gradient(center top , #ED468A, #992D58);
+  background-image: -moz-linear-gradient(center top , #ED468A, #ED468A);
   border: 1px solid #7D2549;
   color:#1F0902;
 }
@@ -20,7 +29,7 @@
   width:175px;
   height:25px;
   background-color: #661e3b;
-  background-image: -moz-linear-gradient(center top , #ED468A, #992D58);
+  background-image: -moz-linear-gradient(center top , #ED468A, #ED468A);
   border: 1px solid #7D2549;
   color:#1F0902;
 }
