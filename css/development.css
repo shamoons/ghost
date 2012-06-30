@@ -1,27 +1,7 @@
-.row {
-  background-image: linear-gradient(bottom, rgb(192,163,255) 18%, rgb(126,121,179) 59%);
-background-image: -o-linear-gradient(bottom, rgb(192,163,255) 18%, rgb(126,121,179) 59%);
-background-image: -moz-linear-gradient(bottom, rgb(192,163,255) 18%, rgb(126,121,179) 59%);
-background-image: -webkit-linear-gradient(bottom, rgb(192,163,255) 18%, rgb(126,121,179) 59%);
-background-image: -ms-linear-gradient(bottom, rgb(192,163,255) 18%, rgb(126,121,179) 59%);
-
-background-image: -webkit-gradient(
-  linear,
-  left bottom,
-  left top,
-  color-stop(0.18, rgb(192,163,255)),
-  color-stop(0.59, rgb(126,121,179))
-);
-
-  margin-bottom: 5px;
-}
-
 .stone, .stones {
-  -moz-box-shadow: inset 3px 0px #BDD4DE;
-  -webkit-box-shadow: inset 3px 0px #BDD4DE;
-  box-shadow: inset 3px 0px #BDD4DE;
 
-  background-color: #EFEFEF;
+
+  background-color: blue;
   border-radius: 5px;
   text-align: center;
 }
