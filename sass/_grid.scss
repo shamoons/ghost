@@ -1,3 +1,41 @@
-body {
-  width: 100%
+$hundred-percent: 100%;
+
+.row {
+  width: $hundred-percent;
+  .one {
+    width: $hundred-percent / 12;  
+  }
+}
+
+.row:after {
+  clear: both;
+}
+
+.stone {
+  //border: 1px solid black;
+//  padding-left: 5px;
+//  padding-right: 5px;
+  float: left;
+}
+
+//[class*="stone"] + [class*="stone"]:last-child {
+//  float: right;
+//}
+//.stone {
+//  border: 1px solid black;
+//  .one {
+//    width: $total-width / 12;
+//  }
+//}
+
+/* Mobile ---------------------- */
+@media only screen and (max-width: 767px) {
+  .row {
+    width: auto;
+  }
+
+  .stone, .stones {
+    float: none;
+    width: auto !important;
+  }
 }
