@@ -1,21 +1,66 @@
-$hundred-percent: 100%;
+$hundred-percent: 90%;
 
 .row {
   width: $hundred-percent;
+  margin-left: -30px;
+  display: table;
+
   .one {
     width: $hundred-percent / 12;  
   }
+
+  .two {
+    width: $hundred-percent / 12 * 2;  
+  }
+
+  .three {
+    width: $hundred-percent / 12 * 3;  
+  }
+
+  .four {
+    width: $hundred-percent / 12 * 4;  
+  }
+
+  .five {
+    width: $hundred-percent / 12 * 5;  
+  }
+
+  .six {
+    width: $hundred-percent / 12 * 6;  
+  }
+
+  .seven {
+    width: $hundred-percent / 12 * 7;  
+  }
+
+  .eight {
+    width: $hundred-percent / 12 * 8;  
+  }
+
+  .nine {
+    width: $hundred-percent / 12 * 9;  
+  }
+
+  .ten {
+    width: $hundred-percent / 12 * 10;  
+  }
+
+  .eleven {
+    width: $hundred-percent / 12 * 11;  
+  }
+
+  .twelve {
+    width: $hundred-percent;  
+  }  
 }
 
 .row:after {
   clear: both;
 }
 
-.stone {
-  //border: 1px solid black;
-//  padding-left: 5px;
-//  padding-right: 5px;
+.stone, .stones {
   float: left;
+  margin-left: 30px;
 }
 
 //[class*="stone"] + [class*="stone"]:last-child {
