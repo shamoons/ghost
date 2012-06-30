@@ -3,9 +3,7 @@ $stone-margin: 3%;
 $stone-margin-vertical: 1%;
 
 .row {
-  //width: $hundred-percent + $stone-margin;
   width: $hundred-percent;
-  //margin-left: -$stone-margin;
   display: table;
 
   .one {
