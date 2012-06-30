@@ -1,58 +1,75 @@
 $hundred-percent: 100%;
-$stone-margin: 3%;
+$stone-margin: 1%;
 $stone-margin-vertical: 1%;
+
+//$stone-width: $hundred-percent / 10 - $stone-margin; // - $stone-margin / 2;
+$num-stones: 12;
+$stone-width: $hundred-percent / ($num-stones + 1);
+$stone-margin: (100 - $stone-width * $num-stones) / ($num-stones - 1);
 
 .row {
   width: $hundred-percent;
   display: table;
 
   .one {
-    width: $hundred-percent / 12 - $stone-margin / 2;
+    width: $stone-width;
   }
 
   .two {
-    width: $hundred-percent / 12 * 2 - $stone-margin / 2; 
+    width: $stone-width * 2 + $stone-margin;
   }
 
   .three {
-    width: $hundred-percent / 12 * 3 - $stone-margin / 2; 
+    width: $stone-width * 3 + $stone-margin * 2;
   }
 
   .four {
-    width: $hundred-percent / 12 * 4 - $stone-margin / 2;
+    width: $stone-width * 4 + $stone-margin * 3;
   }
 
   .five {
-    width: $hundred-percent / 12 * 5 - $stone-margin / 2;
+    width: $stone-width * 5 + $stone-margin * 4;
   }
 
   .six {
-    width: $hundred-percent / 12 * 6 - $stone-margin / 2;
+    width: $stone-width * 6 + $stone-margin * 5;
   }
 
   .seven {
-    width: $hundred-percent / 12 * 7 - $stone-margin / 2;
+    width: $stone-width * 7 + $stone-margin * 6;
   }
 
   .eight {
-    width: $hundred-percent / 12 * 8 - $stone-margin / 2;
+    width: $stone-width * 8 + $stone-margin * 7;
   }
 
   .nine {
-    width: $hundred-percent / 12 * 9 - $stone-margin / 2;
+    width: $stone-width * 9 + $stone-margin * 8;
   }
 
   .ten {
-    width: $hundred-percent / 12 * 10 - $stone-margin / 2;
+    width: $stone-width * 10 + $stone-margin * 9;
   }
 
   .eleven {
-    width: $hundred-percent / 12 * 11 - $stone-margin / 2;
+    width: $stone-width * 11 + $stone-margin * 10;
   }
 
   .twelve {
-    width: $hundred-percent;  
-  }  
+    width: $stone-width * 12;
+  }
+
+  .offset-one {
+    margin-left: $stone-margin + $stone-width;
+  }
+
+  .offset-two {
+    margin-left: ($stone-margin + $stone-width) * 2;
+  }
+
+  .offset-three {
+    margin-left: ($stone-margin + $stone-width) * 3;
+  }
 }
 
 .row:after {

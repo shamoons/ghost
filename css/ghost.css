@@ -6,36 +6,42 @@ body {
   width: 100%;
   display: table; }
   .row .one {
-    width: 6.833%; }
+    width: 7.692%; }
   .row .two {
-    width: 15.167%; }
+    width: 16.084%; }
   .row .three {
-    width: 23.5%; }
+    width: 24.476%; }
   .row .four {
-    width: 31.833%; }
+    width: 32.867%; }
   .row .five {
-    width: 40.167%; }
+    width: 41.259%; }
   .row .six {
-    width: 48.5%; }
+    width: 49.65%; }
   .row .seven {
-    width: 56.833%; }
+    width: 58.042%; }
   .row .eight {
-    width: 65.167%; }
+    width: 66.434%; }
   .row .nine {
-    width: 73.5%; }
+    width: 74.825%; }
   .row .ten {
-    width: 81.833%; }
+    width: 83.217%; }
   .row .eleven {
-    width: 90.167%; }
+    width: 91.608%; }
   .row .twelve {
-    width: 100%; }
+    width: 92.308%; }
+  .row .offset-one {
+    margin-left: 8.392%; }
+  .row .offset-two {
+    margin-left: 16.783%; }
+  .row .offset-three {
+    margin-left: 25.175%; }
 
 .row:after {
   clear: both; }
 
 .stone, .stones {
   float: left;
-  margin-right: 3%;
+  margin-right: 0.699%;
   margin-bottom: 1%; }
 
 .stone:last-child, .stones:last-child {
