@@ -9,46 +9,50 @@
 }
 
 .button-full {
-  width: 100%;
-  height:25px;
+  width: 960px;
+  height:75px;
   background-color: #FFF2A1;
   background-image: -moz-linear-gradient(center top , #ff9900, #ff3600);
   border: 1px solid #c42b00;
   color:#ffffff;
   margin:5px;
+  font-size:40px;
 }
 
 .button-small {
   width:75px;
-  height:25px;
+  height:50px;
   background-color: #fff2a1;
   background-image: -moz-linear-gradient(center top , #ff9900, #ff3600);
   border: 1px solid #c42b00;
   color:#ffffff;
   /*text-shadow: 0.1em #ffffff;*/
   margin:5px;
+  font-size:15px;
 }
 
 .button-medium {
   width:125px;
-  height:25px;
+  height:65px;
   background-color: #661e3b;
   background-image: -moz-linear-gradient(center top , #ff9900, #ff3600);
   border: 1px solid #c42b00;
   color:#ffffff;
   margin:5px;
+  font-size:20px;
 
 }
 
 .button-large {
   width:175px;
-  height:25px;
+  height:75px;
   background-color: #661e3b;
   background-image: -moz-linear-gradient(center top , #ff9900, #ff3600);
   border: 1px solid #c42b00;
   color:#ffffff;
   margin:5px;
-  cursor:pointer; cursor:hand
+  cursor:pointer; cursor:hand;
+  font-size:30px;
 }
 
 .button-medium:hover, .button-small:hover, .button-large:hover, .button-full:hover{
