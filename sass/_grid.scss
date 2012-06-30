@@ -59,6 +59,7 @@ $stone-margin: (100 - $stone-width * $num-stones) / ($num-stones - 1);
     width: $stone-width * 12;
   }
 
+
   .offset-one {
     margin-left: $stone-margin + $stone-width;
   }
@@ -70,6 +71,7 @@ $stone-margin: (100 - $stone-width * $num-stones) / ($num-stones - 1);
   .offset-three {
     margin-left: ($stone-margin + $stone-width) * 3;
   }
+
 }
 
 .row:after {
@@ -90,6 +92,18 @@ $stone-margin: (100 - $stone-width * $num-stones) / ($num-stones - 1);
 @media only screen and (max-width: 767px) {
   .row {
     width: $hundred-percent;
+
+    .offset-one {
+      margin-left: 0px;
+    }
+
+    .offset-two {
+      margin-left: 0px;
+    }
+
+    .offset-three {
+      margin-left: 0px;
+    }
   }
 
   .stone, .stones, .stone:last-child, .stones:last-child {
