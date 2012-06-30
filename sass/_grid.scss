@@ -56,13 +56,9 @@ $stone-margin: (100 - $stone-width * $num-stones) / ($num-stones - 1);
   }
 
   .twelve {
-    width: $stone-width * 12;
+    width: $hundred-percent;
   }
 
-  .centered {
-    float: none;
-    margin: 0 auto;
-  }
 
   .offset-one {
     margin-left: $stone-margin + $stone-width;
@@ -74,6 +70,42 @@ $stone-margin: (100 - $stone-width * $num-stones) / ($num-stones - 1);
 
   .offset-three {
     margin-left: ($stone-margin + $stone-width) * 3;
+  }
+
+  .offset-four {
+    margin-left: ($stone-margin + $stone-width) * 4;
+  }
+
+  .offset-five {
+    margin-left: ($stone-margin + $stone-width) * 5;
+  }
+
+  .offset-six {
+    margin-left: ($stone-margin + $stone-width) * 6;
+  }
+
+  .offset-seven {
+    margin-left: ($stone-margin + $stone-width) * 7;
+  }
+
+  .offset-eight {
+    margin-left: ($stone-margin + $stone-width) * 8;
+  }
+
+  .offset-nine {
+    margin-left: ($stone-margin + $stone-width) * 9;
+  }
+
+  .offset-ten {
+    margin-left: ($stone-margin + $stone-width) * 10
+  }
+
+  .offset-eleven {
+    margin-left: ($stone-margin + $stone-width) * 11;
+  }
+
+  .offset-twelve {
+    margin-left: ($stone-margin + $stone-width) * 12;
   }
 
 }
@@ -92,23 +124,15 @@ $stone-margin: (100 - $stone-width * $num-stones) / ($num-stones - 1);
   margin-right: 0px;
 }
 
-.centered.stone:last-child, .centered.stones:last-child {
-  margin: auto !important;
-}
-
-
 /* Mobile ---------------------- */
 @media only screen and (max-width: 767px) {
   .row {
     width: $hundred-percent;
 
-    .offset-one, .offset-two {
+    .offset-one, .offset-two, .offset-three, .offset-four, .offset-five, .offset-six, .offset-seven, .offset-eight, .offset-nine, .offset-ten, .offset-eleven, .offset-twelve {
       margin-left: 0px;
     }
 
-    .offset-three {
-      margin-left: 0px;
-    }
   }
 
   .stone, .stones, .stone:last-child, .stones:last-child {
@@ -116,4 +140,6 @@ $stone-margin: (100 - $stone-width * $num-stones) / ($num-stones - 1);
     width: auto !important;
     margin-right: 0px;
   }
+
+
 }
