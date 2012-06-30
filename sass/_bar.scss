@@ -2,26 +2,34 @@
 $bar-color: rgb(255, 255, 255);
 $bar-height: 50px;
 
+$bar-gradient-start-color: rgba(150, 150, 150, 0.1);
+$bar-gradient-end-color: rgba(255,255,255, 0.5);
+
 .bar {
   border-top: 1px solid white;
-  border-bottom: 2px solid black;
+  border-bottom: 1px solid black;
   width: 100%;
   height: $bar-height;
-  background-image: linear-gradient(bottom, rgb(0,0,0) 0%, rgb(115,115,115) 100%);
-  background-image: -o-linear-gradient(bottom, rgb(0,0,0) 0%, rgb(115,115,115) 100%);
-  background-image: -moz-linear-gradient(bottom, rgb(0,0,0) 0%, rgb(115,115,115) 100%);
-  background-image: -webkit-linear-gradient(bottom, rgb(0,0,0) 0%, rgb(115,115,115) 100%);
-  background-image: -ms-linear-gradient(bottom, rgb(0,0,0) 0%, rgb(115,115,115) 100%);
+  background-image: linear-gradient(bottom, $bar-gradient-start-color 0%, $bar-gradient-end-color 100%);
+  background-image: -o-linear-gradient(bottom, $bar-gradient-start-color 0%, $bar-gradient-end-color 100%);
+  background-image: -moz-linear-gradient(bottom, $bar-gradient-start-color 0%, $bar-gradient-end-color 100%);
+  background-image: -webkit-linear-gradient(bottom, $bar-gradient-start-color 0%, $bar-gradient-end-color 100%);
+  background-image: -ms-linear-gradient(bottom, $bar-gradient-start-color 0%, $bar-gradient-end-color 100%);
   background-image: -webkit-gradient(
     linear,
     left bottom,
     left top,
-    color-stop(0, rgba(0,0,0, 0.3)),
-    color-stop(1, rgba(115,115,115, 0.3))
+    color-stop(0, $bar-gradient-start-color),
+    color-stop(1, $bar-gradient-end-color)
   );
   .title {
     padding-left: 5%;  
   }
+
+  -webkit-box-shadow:0 5px 10px rgba(0, 0, 0, 0.3);
+     -moz-box-shadow:0 5px 10px rgba(0, 0, 0, 0.3);
+          box-shadow:0 5px 10px rgba(0, 0, 0, 0.3);
+
 }
 
 .top-bar {
