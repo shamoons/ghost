@@ -102,11 +102,7 @@ $stone-margin: (100 - $stone-width * $num-stones) / ($num-stones - 1);
   .row {
     width: $hundred-percent;
 
-    .offset-one {
-      margin-left: 0px;
-    }
-
-    .offset-two {
+    .offset-one, .offset-two {
       margin-left: 0px;
     }
 
