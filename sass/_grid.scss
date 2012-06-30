@@ -59,6 +59,10 @@ $stone-margin: (100 - $stone-width * $num-stones) / ($num-stones - 1);
     width: $stone-width * 12;
   }
 
+  .centered {
+    float: none;
+    margin: 0 auto;
+  }
 
   .offset-one {
     margin-left: $stone-margin + $stone-width;
@@ -88,16 +92,17 @@ $stone-margin: (100 - $stone-width * $num-stones) / ($num-stones - 1);
   margin-right: 0px;
 }
 
+.centered.stone:last-child, .centered.stones:last-child {
+  margin: auto !important;
+}
+
+
 /* Mobile ---------------------- */
 @media only screen and (max-width: 767px) {
   .row {
     width: $hundred-percent;
 
-    .offset-one {
-      margin-left: 0px;
-    }
-
-    .offset-two {
+    .offset-one, .offset-two {
       margin-left: 0px;
     }
 
@@ -111,6 +116,4 @@ $stone-margin: (100 - $stone-width * $num-stones) / ($num-stones - 1);
     width: auto !important;
     margin-right: 0px;
   }
-
-
 }
