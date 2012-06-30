@@ -37,6 +37,7 @@
   border: 1px solid #c42b00;
   color:#ffffff;
   margin:5px;
+
 }
 
 .button-large {
@@ -47,9 +48,11 @@
   border: 1px solid #c42b00;
   color:#ffffff;
   margin:5px;
+  cursor:pointer; cursor:hand
 }
 
 .button-medium:hover, .button-small:hover, .button-large:hover, .button-full:hover{
   background-color: #661e3b;
   background-image: -moz-linear-gradient(center top , #ff3600, #ff9900);
+  cursor:pointer; cursor:hand
 }
