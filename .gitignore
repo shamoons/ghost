@@ -1,2 +1,3 @@
 .sass-cache
 css/ghost.css
+*.jade

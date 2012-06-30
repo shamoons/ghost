@@ -1,0 +1,31 @@
+.button-small {
+  width:75px;
+  height:25px;
+  background-color: #661e3b;
+  background-image: -moz-linear-gradient(center top , #ED468A, #992D58);
+  border: 1px solid #7D2549;
+  color:#1F0902;
+}
+
+.button-medium {
+  width:125px;
+  height:25px;
+  background-color: #661e3b;
+  background-image: -moz-linear-gradient(center top , #ED468A, #992D58);
+  border: 1px solid #7D2549;
+  color:#1F0902;
+}
+
+.button-large {
+  width:175px;
+  height:25px;
+  background-color: #661e3b;
+  background-image: -moz-linear-gradient(center top , #ED468A, #992D58);
+  border: 1px solid #7D2549;
+  color:#1F0902;
+}
+
+.button-medium:hover, .button-small:hover, .button-large:hover{
+  background-color: #661e3b;
+  background-image: -moz-linear-gradient(center top , #992D58, #ED468A);
+}
