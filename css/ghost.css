@@ -46,3 +46,5 @@ body {
   .stone, .stones {
     float: none;
     width: auto !important; } }
+input.slide_control {
+  display: none; }
