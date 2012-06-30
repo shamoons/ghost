@@ -1,0 +1,20 @@
+$bar-color: rgba(11,11,11, 0.7);
+$bar-height: 50px;
+
+.bar {
+  width: 100%;
+  height: $bar-height;
+  background-color: $bar-color;
+}
+
+.top-bar {
+  @extend .bar;
+  position: absolute;
+  top: 0;
+}
+    
+.bottom-bar {
+  @extend .bar;
+  position: absolute;
+  bottom: 0;
+}
