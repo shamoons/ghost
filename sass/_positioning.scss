@@ -1,0 +1,21 @@
+$body-padding: 60px;
+
+body {
+  padding-top: $body-padding;
+}
+
+body.unpad {
+  padding-top: 0;
+}
+
+.left {
+  float: left;
+};
+
+.right {
+  float: right;
+}
+
+.clear {
+  clear: both;
+}
