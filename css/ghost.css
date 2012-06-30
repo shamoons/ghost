@@ -3,15 +3,40 @@ body {
   margin: 0; }
 
 .row {
-  width: 100%; }
+  width: 90%;
+  margin-left: -30px;
+  display: table; }
   .row .one {
-    width: 8.333%; }
+    width: 7.5%; }
+  .row .two {
+    width: 15%; }
+  .row .three {
+    width: 22.5%; }
+  .row .four {
+    width: 30%; }
+  .row .five {
+    width: 37.5%; }
+  .row .six {
+    width: 45%; }
+  .row .seven {
+    width: 52.5%; }
+  .row .eight {
+    width: 60%; }
+  .row .nine {
+    width: 67.5%; }
+  .row .ten {
+    width: 75%; }
+  .row .eleven {
+    width: 82.5%; }
+  .row .twelve {
+    width: 90%; }
 
 .row:after {
   clear: both; }
 
-.stone {
-  float: left; }
+.stone, .stones {
+  float: left;
+  margin-left: 30px; }
 
 /* Mobile ---------------------- */
 @media only screen and (max-width: 767px) {
