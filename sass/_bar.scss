@@ -1,10 +1,13 @@
-$bar-color: rgba(11,11,11, 0.7);
+$bar-color: rgba(253, 253, 253, 0.9);
 $bar-height: 50px;
 
 .bar {
   width: 100%;
   height: $bar-height;
   background-color: $bar-color;
+  .title {
+    padding-left: 5%;  
+  }
 }
 
 .top-bar {
@@ -19,3 +22,19 @@ $bar-height: 50px;
   bottom: 0;
 }
 
+ul.nav {
+  list-style: none;
+  margin: 0;
+  height: 50px;
+  li {
+    position: relative;
+    height: 50px;
+    float: left;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-left: 1px solid #fefefe;
+  }
+  :last-child {
+    border-right: 1px solid #fefefe;
+  }
+}
