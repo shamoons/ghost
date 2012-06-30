@@ -1,10 +1,11 @@
 .button-full {
-  width: $hundred-percent;
+  width: 100%;
   height:25px;
   background-color: #ED468A;
   background-image: -moz-linear-gradient(center top , #ED468A, #ED468A);
   border: 1px solid #7D2549;
   color:#1F0902;
+  margin:5px;
 }
 
 .button-small {
@@ -14,6 +15,7 @@
   background-image: -moz-linear-gradient(center top , #ED468A, #ED468A);
   border: 1px solid #7D2549;
   color:#1F0902;
+  margin:5px;
 }
 
 .button-medium {
@@ -23,6 +25,7 @@
   background-image: -moz-linear-gradient(center top , #ED468A, #ED468A);
   border: 1px solid #7D2549;
   color:#1F0902;
+  margin:5px;
 }
 
 .button-large {
@@ -32,9 +35,10 @@
   background-image: -moz-linear-gradient(center top , #ED468A, #ED468A);
   border: 1px solid #7D2549;
   color:#1F0902;
+  margin:5px;
 }
 
-.button-medium:hover, .button-small:hover, .button-large:hover{
+.button-medium:hover, .button-small:hover, .button-large:hover, .button-full:hover{
   background-color: #661e3b;
   background-image: -moz-linear-gradient(center top , #992D58, #ED468A);
 }
