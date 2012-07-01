@@ -114,6 +114,6 @@ $stone-margin: (100 - $stone-width * $num-stones) / ($num-stones - 1);
   .stone, .stones, .stone:last-child, .stones:last-child {
     float: none;
     width: auto !important;
-    margin-right: 0px auto;
+    margin-right: 0px;
   }
 }
