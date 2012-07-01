@@ -56,7 +56,7 @@ $stone-margin: (100 - $stone-width * $num-stones) / ($num-stones - 1);
   }
 
   .twelve {
-    width: $stone-width * 12;
+    width: $hundred-percent;
   }
 
 

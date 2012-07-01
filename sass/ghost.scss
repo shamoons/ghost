@@ -2,12 +2,12 @@ body {
   padding: 0;
   margin: 0;
   font-family: 'Century Gothic', sans-serif;
-  background: -moz-radial-gradient(#F0F0F0, #BEBEBE) repeat scroll 0 0 transparent;
 }
 
 @import "grid";
 @import "ui";
 @import "typography";
+@import "forms";
 
 @import "buttons";
 @import "bar";
