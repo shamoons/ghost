@@ -1,41 +1,85 @@
 $hundred-percent: 100%;
+$stone-margin: 3%;
+$stone-margin-vertical: 1%;
 
 .row {
   width: $hundred-percent;
+  display: table;
+
   .one {
-    width: $hundred-percent / 12;  
+    width: $hundred-percent / 12 - $stone-margin / 2;
   }
+
+  .two {
+    width: $hundred-percent / 12 * 2 - $stone-margin / 2; 
+  }
+
+  .three {
+    width: $hundred-percent / 12 * 3 - $stone-margin / 2; 
+  }
+
+  .four {
+    width: $hundred-percent / 12 * 4 - $stone-margin / 2;
+  }
+
+  .five {
+    width: $hundred-percent / 12 * 5 - $stone-margin / 2;
+  }
+
+  .six {
+    width: $hundred-percent / 12 * 6 - $stone-margin / 2;
+  }
+
+  .seven {
+    width: $hundred-percent / 12 * 7 - $stone-margin / 2;
+  }
+
+  .eight {
+    width: $hundred-percent / 12 * 8 - $stone-margin / 2;
+  }
+
+  .nine {
+    width: $hundred-percent / 12 * 9 - $stone-margin / 2;
+  }
+
+  .ten {
+    width: $hundred-percent / 12 * 10 - $stone-margin / 2;
+  }
+
+  .eleven {
+    width: $hundred-percent / 12 * 11 - $stone-margin / 2;
+  }
+
+  .twelve {
+    width: $hundred-percent;  
+  }  
 }
 
 .row:after {
   clear: both;
 }
 
-.stone {
-  //border: 1px solid black;
-//  padding-left: 5px;
-//  padding-right: 5px;
+.stone, .stones {
   float: left;
+  margin-right: $stone-margin;
+  margin-bottom: $stone-margin-vertical;
 }
 
-//[class*="stone"] + [class*="stone"]:last-child {
-//  float: right;
-//}
-//.stone {
-//  border: 1px solid black;
-//  .one {
-//    width: $total-width / 12;
-//  }
-//}
+.stone:last-child, .stones:last-child {
+  margin-right: 0px;
+}
 
 /* Mobile ---------------------- */
 @media only screen and (max-width: 767px) {
   .row {
-    width: auto;
+    width: $hundred-percent;
   }
 
-  .stone, .stones {
+  .stone, .stones, .stone:last-child, .stones:last-child {
     float: none;
     width: auto !important;
+    margin-right: 0px;
   }
+
+
 }
