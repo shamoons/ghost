@@ -108,6 +108,12 @@ $stone-margin: (100 - $stone-width * $num-stones) / ($num-stones - 1);
     margin-left: ($stone-margin + $stone-width) * 12;
   }
 
+  
+  .centered {
+    float: none;
+    margin: 0 auto;
+  }
+
 }
 
 .row:after {
@@ -131,6 +137,10 @@ $stone-margin: (100 - $stone-width * $num-stones) / ($num-stones - 1);
 
     .offset-one, .offset-two, .offset-three, .offset-four, .offset-five, .offset-six, .offset-seven, .offset-eight, .offset-nine, .offset-ten, .offset-eleven, .offset-twelve {
       margin-left: 0px;
+    }
+
+    .centered.stone:last-child, .centered.stones:last-child {
+      margin: auto !important;
     }
 
   }
